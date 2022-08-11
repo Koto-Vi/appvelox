@@ -1,0 +1,24 @@
+@import '../../../styles/index';
+
+.wrapper {
+  height: 79px;
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $divider-color;
+  .title {
+    font-size: 16px;
+  }
+  .linkWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+
+    .link {
+      font-size: 14px;
+      color: $accent-color-3;
+    }
+  }
+}

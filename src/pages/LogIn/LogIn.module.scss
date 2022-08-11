@@ -1,0 +1,28 @@
+@import "../../styles/index";
+
+.wrapper {
+  height: calc(100% - calc(79px + 50px));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title {
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .label {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 34px;
+    .link {
+      color: $accent-color-2;
+      text-decoration: underline;
+    }
+  }
+  .password {
+    width: 347px;
+    text-align: left;
+    margin-bottom: 41px;
+  }
+}

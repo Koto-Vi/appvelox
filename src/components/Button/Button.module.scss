@@ -1,0 +1,12 @@
+@import "../../styles/index";
+
+.button {
+  width: 346px;
+  height: 40px;
+  border-radius: 5px;
+  background: $accent-color-3;
+  .label {
+    color: $font-color-2;
+    opacity: 0.4;
+  }
+}
