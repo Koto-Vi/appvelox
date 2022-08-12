@@ -10,8 +10,8 @@ const LogIn: React.FC = () => {
             <span className={s.label}>{"У вас нет аккаунта? "}
                 <a href="#" className={s.link}>Зарегистрироваться</a>
             </span>
-            <Input>Почта или телефон</Input>
-            <Input>Почта</Input>
+            <Input label={"Почта или телефон"} />
+            <Input label={"Пароль"} type={"password"}/>
             <div className={s.password}>
                 <span className={s.label}>{"Забыли пароль? "}
                     <a href="#" className={s.link}>Восстановить</a>
